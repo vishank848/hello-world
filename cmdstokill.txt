@@ -1,0 +1,5 @@
+#cmd to find
+netstat -ano | findstr :9090
+
+#cmd to kill
+taskkill /PID <typeyourPIDhere> /F
